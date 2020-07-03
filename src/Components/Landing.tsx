@@ -27,7 +27,7 @@ export const Landing = () => {
                     </div>
                     {/* <img className="hamburger" src={require('../assets/icons8-menu.svg')} alt="hamburger" /> for mobile later */}
                 </nav>
-                <section>
+                <section className="landing-section">
                     <div className="hero">
                         <img src={require('../assets/landing.png')} alt="computer" />
                         <h1 className="headline">Tristan Oshier</h1>
