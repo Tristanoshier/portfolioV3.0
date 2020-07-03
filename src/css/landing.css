@@ -35,10 +35,22 @@ nav {
     list-style-type: none;
 }
 
+.nav-link {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: normal;
+    transform: font-weight 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
 #logo {
     grid-column: 2/3;
     font-size: 24px;
     letter-spacing: 2px;
+    cursor: pointer;
 }
 
 section {
@@ -92,9 +104,4 @@ section {
     left: 0;
     opacity: .4;
     top: 0;
-}
-
-.next-page {
-    margin-top: 100px;
-    background-color: white;
 }

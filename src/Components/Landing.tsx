@@ -18,12 +18,12 @@ export const Landing = () => {
         <div>
             <header>
                 <nav>
-                    <h3 id="logo">TO</h3>
+                    <h3 id="logo"><a className="nav-link" href="#">TO</a></h3>
                     <div className="nav-items">
-                        <li className="nav-item">about</li>
-                        <li className="nav-item">skills</li>
-                        <li className="nav-item">projects</li>
-                        <li className="nav-item">contact</li>     
+                        <li className="nav-item"><a className="nav-link" href="#about">about</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#skills">skills</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#projects">projects</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#contact">contact</a></li>     
                     </div>
                     {/* <img className="hamburger" src={require('../assets/icons8-menu.svg')} alt="hamburger" /> for mobile later */}
                 </nav>
