@@ -10,25 +10,35 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to left, #ba7453, #d1a984);
+    background: var(--lightgrey);
     z-index: -1;
 }
 
 nav {
+    font-family: var(--main-font);
     display: grid;
-    grid-template-columns: 10% 1fr 1fr 10%;
+    grid-template-columns: 10% 1fr 1fr 6%;
     min-height: 10vh;
-    color: white;
+    color: var(--black);
     align-items: center;
 }
 
-#Logo {
-    grid-column: 2/3;
-    font-size: 24px;
+.nav-items {
+    display: flex;
+    justify-content: space-evenly;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
-.hamburger {
-    justify-self: end;
+.nav-item {
+    list-style-type: none;
+}
+
+#logo {
+    grid-column: 2/3;
+    font-size: 24px;
+    letter-spacing: 2px;
 }
 
 section {
@@ -36,6 +46,7 @@ section {
     height: 80vh;
     justify-content: center;
     align-items: center;
+    font-family: var(--main-font);
 }
 
 .hero {
@@ -58,6 +69,18 @@ section {
     transform: translate(-20%, -70%);
     color: white;
     z-index: 3;
+    font-weight: 300;
+}
+
+.sub-headline {
+    position: absolute;
+    top: 83%;
+    left: 12%;
+    font-size: 30px;
+    transform: translate(-20%, -70%);
+    color: white;
+    z-index: 3;
+    font-weight: 300; 
 }
 
 .hero::after {
@@ -67,6 +90,11 @@ section {
     height: 100%;
     position: absolute;
     left: 0;
-    opacity: 0.3;
+    opacity: .4;
     top: 0;
+}
+
+.next-page {
+    margin-top: 100px;
+    background-color: white;
 }

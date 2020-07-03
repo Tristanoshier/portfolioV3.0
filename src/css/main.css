@@ -1,1 +1,13 @@
-@import 'landing.css'
+@import 'landing.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400&display=swap');
+
+:root {
+    --lightgrey: rgb(243, 243, 243);
+    --black: #252422;
+    --main-font: 'Muli', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}

@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './css/main.css';
 import { Landing } from './Components/Landing';
+import { About } from './Components/About'
 
 function App() {
   return (
     <div>
       <Landing />
+      <About />
     </div>
   );
 }
