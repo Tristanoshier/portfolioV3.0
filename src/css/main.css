@@ -1,9 +1,15 @@
+/* style sheet imports */
 @import 'landing.css';
 @import 'about.css';
 @import 'skills.css';
+@import 'projects.css';
+@import 'contact.css';
+@import 'footer.css';
 
+/* font import */
 @import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400&display=swap');
 
+/* root colors and fonts */
 :root {
     --lightgrey: rgb(243, 243, 243);
     --black: #252422;
