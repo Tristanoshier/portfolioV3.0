@@ -30,5 +30,16 @@
 }
 
 .skill-item:hover {
-    background-color: rgb(228, 228, 228);;
+    background-color: var(--grey);
 }
+
+.skill-link {
+    color: var(--darkgrey);
+    text-decoration: none;
+}
+
+td a {
+    width: 100%;
+    display: block;
+}
+

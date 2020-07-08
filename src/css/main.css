@@ -12,9 +12,12 @@
 /* root colors and fonts */
 :root {
     --lightgrey: rgb(243, 243, 243);
+    --grey: rgb(228, 228, 228);
+    --darkgrey: rgb(121, 121, 121);
     --black: #252422;
     --main-font: 'Muli', sans-serif;
-    --text: #889696;;
+    --text: #889696;
+
 }
 
 html {

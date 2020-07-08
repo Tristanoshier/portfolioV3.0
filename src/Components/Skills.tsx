@@ -16,7 +16,7 @@ export const Skills = () => {
                 </tr>
                 <tr className="skill-row">
                     <td className="skill-item">JavaScript/TypeScript</td>
-                    <td className="skill-item">React</td>
+                    <td className="skill-item"><a className="skill-link" href="https://reactjs.org/" target="_blank">React</a></td>
                     <td className="skill-item">Node.js</td>
                     <td className="skill-item">Git/GitHub</td>
                 </tr>
